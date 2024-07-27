@@ -12,7 +12,7 @@ Contents
 
 .. toctree::
 
-   estrutura
+   structure
    eletrônica
    software
    estratégia
