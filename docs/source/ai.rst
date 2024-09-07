@@ -1,35 +1,37 @@
-Structure
+Artificial Intelligence
 =====
 
-.. _installation:
+.. _reinforcement-learning:
 
-Installation
+Reinforcement Learning
 ------------
 
-To use Lumache, first install it using pip:
+.. automodule:: ai.reinforcement_learning
+    :members:
+    :undoc-members:
+    :show-inheritance:
+    :inherited-members:
+    :exclude-members: __init__
 
-.. code-block:: console
+.. automodule:: ai.q_learning
+      :members:
+      :undoc-members:
+      :show-inheritance:
+      :inherited-members:
+      :exclude-members: __init__
 
-   (.venv) $ pip install lumache
+.. automodule:: ai.deep_q_learning
+      :members:
+      :undoc-members:
+      :show-inheritance:
+      :inherited-members:
+      :exclude-members: __init__
 
-Creating recipes
-----------------
+.. _description:
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Description
+------------
+This module contains the implementation of the Reinforcement Learning algorithms used in the project.
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
 
